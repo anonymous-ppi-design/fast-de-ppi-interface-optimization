@@ -1,0 +1,6 @@
+n_min: 320
+n_max: 650
+delta_max: 0.62
+fixed_round0: 2209
+fixed_round1: 320
+use_cumulative_best: true

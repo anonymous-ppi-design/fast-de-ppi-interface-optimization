@@ -1,0 +1,19 @@
+name: fastde
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - biopython
+  - pytorch
+  - pip:
+      - -r requirements.txt

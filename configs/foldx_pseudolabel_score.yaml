@@ -1,0 +1,12 @@
+score:
+  binding_weight: 1.0
+  stability_penalty_weight: 0.5
+  clash_penalty_weight: 0.3
+  mutation_penalty_weight: 0.05
+  center_wt_to_zero: true
+columns:
+  ddg_binding: ddG_binding_vs_WT
+  ddg_stability: ddG_stability_vs_WT
+  clash_increase: clash_increase_vs_WT
+  mutation_count: mutation_count
+  is_wt: is_WT

@@ -1,0 +1,25 @@
+seed: 37
+sequence_column: design_sequence
+source_column: pretrain_source
+mutation_count_column: mutation_count
+model:
+  length: null
+  latent_dim: 32
+  hidden_dim: 64
+  num_layers: 1
+  dropout: 0.1
+  use_esm_regularization: false
+training:
+  epochs: 1
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  mask_probability: 0.15
+  kl_beta: 0.0001
+  mutation_gate_weight: 0.25
+  device: auto
+generation:
+  num_samples: 256
+  mutation_budget_min: 3
+  mutation_budget_max: 25
+  temperature: 0.9
