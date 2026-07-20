@@ -217,4 +217,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.fxout
+foldx*
+*.pdb
+.DS_Store
+.env
+
 
